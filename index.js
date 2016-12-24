@@ -15,6 +15,7 @@ exports.parse = function(feedUrl, callback) {
             return this.items;
         }
     };
+    
 
     var req = request(feedUrl),
         feedparser = new FeedParser();
