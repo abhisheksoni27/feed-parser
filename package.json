@@ -1,0 +1,38 @@
+{
+    "name": "feed-parser",
+    "version": "1.0.16",
+    "description": "It parses an Atom/RSS feed and de-cluters the article objects to return a simple array of articles.",
+    "main": "index.js",
+    "directories": {
+        "example": "examples"
+    },
+    "dependencies": {
+        "feedparser": "^1.1.5"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/abhisheksoni27/feed-parser.git"
+    },
+    "keywords": [
+        "feed",
+        "parser",
+        "blog",
+        "blogger",
+        "wordpress",
+        "parse",
+        "RSS",
+        "Atom",
+        "reader",
+        "parser",
+        "parse"
+    ],
+    "author": "Abhishek Soni",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/abhisheksoni27/feed-parser/issues"
+    },
+    "homepage": "https://github.com/abhisheksoni27/feed-parser#readme"
+}
