@@ -1,6 +1,6 @@
 {
   "name": "feed-parser",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "It parses an Atom/RSS feed and de-cluters the article objects to return a simple array of articles.",
   "main": "index.js",
   "directories": {
