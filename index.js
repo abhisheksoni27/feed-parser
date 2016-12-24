@@ -1,5 +1,5 @@
 exports.parse = function(feedUrl, callback) {
-    const FeedParser = require('feedparser'),
+    const feedParser = require('feedparser'),
         request = require('request');
 
     if (feedUrl === null || feedUrl === '') {
