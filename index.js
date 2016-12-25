@@ -42,14 +42,14 @@ exports.parse = function(feedUrl, callback) {
     feedparser.on('readable', function() {
         // This is where the action is! 
         var item;
-        while (this.read()) {
-            item = this.read();
+        while (item = this.read()) {
             itemsObject.getItems().push(item);
         }
     });
 
     function readNow(items) {
         const propertiesINeed = ['title', 'author', 'date', 'description', 'image'];
+        console.log(items);
 
         items = items.map((oneItem) => {
 
